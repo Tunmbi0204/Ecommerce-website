@@ -313,7 +313,7 @@
           justify-content:space-between;
            } 
 
-           .newsletter{
+           /* .newsletter{
             width:100%; 
             padding-bottom:25px;
             padding-left:20px;
@@ -333,7 +333,7 @@
             background-color:#f3f3f3;
             border:1px solid black;
 
-           }
+           } */
 
            .footer{
              background-color:black;
@@ -358,7 +358,7 @@
               color:white;
             }
 
-                .newsletter button{
+                /* .newsletter button{
                    color:white;
      	font-weight:bold;
       font-size:20px;
@@ -374,10 +374,58 @@
      	background-color:red;
         font-weight:bold;
    
-                }   
+                }    */
+                .box{
+      display:inline-flex;
 
+}
+
+.box input{
+background-color:white;
+padding:11px;
+width:100%;
+border:none;
+margin-left:20px;
+}
+
+.box button{
+background-color:coral;
+color:white;
+padding:11px;
+margin-top:4px;
+border:none;
+
+}
           
+.newsletter{
+padding-top:15px;
+display:inline-flex;
+/* background-color:#00203FFF; */
+background-color: coral;
+justify-content:space-between;
+padding-bottom:15px;
+margin-left:80px;
+margin-right:20px;
+margin-top:30px;
+min-width:100px;
+}
+.newsletter .colored{
+font-size:17.5px;
+font-family:helvetica;
+font-weight:bold;
+margin-left:20px;
+color:brown;
+}
 
+
+.newsletter .normal{
+font-size:19px;
+margin-left:20px;
+font-family:helvetica;
+color:white;
+}  
+
+/* testing */
                 .archives{
          
             display:grid;
@@ -453,7 +501,7 @@
         </head>
 
         <body>
-      
+      <!-- section 1 -->
 <div class="header1">
     
         <select class="select1">
@@ -511,13 +559,13 @@
   
  </div>  
 
-
+<!-- section 2 -->
  <div class="header3">
   <a href="index.html" title="Home-Page">Home</a>
    <a href="contact.html" title="contact us">Contact</a>
   <a href="female.html" title="female wears">Female Wears</a>
   <a href="men.html" title="men wears">Men Wears</a>
-  <a href="archive.html" title="About us">Blog</a>
+  <a href="archive.html" title="Archive">Blog</a>
     
    
  </div> 
@@ -560,7 +608,7 @@
             </p> 
          </div> 
 
-
+<!-- section 3 -->
          <div class='archive1'>
             <img src='images/shopping 5.jpg'>
             <p>We are the best company ever when it comes to the delivery of your favorite ordered products
@@ -625,7 +673,7 @@
            </div>
 
                
-             <form>
+             <!-- <form>
          <div style='margin-top:50px' class="newsletter">
           <p style='font-weight:bold; font-family:helvetica'>SUBSCRIBE OUR NEWS LETTER</p>
            <p style='font-family:helvetica; font-size:18px' class='small'>You can subscribe our newsletter to get the latest update of our company</p>
@@ -634,11 +682,29 @@
             <button class="sub">Subscribe</button> </div>
          </div>
 
-        </form>
-     
+        </form> -->
+
+        <!-- newsletter -->
+        <div class="newsletter">
+
+          <div>
+         <p class="colored">subscribe now</p>
+         <p class="normal">Dont forget our discounts</p>
+
+         <form>
+         <div class="box">
+
+          <input type='email' placeholder="Enter Email" required>
+           <button>subscribe</button> 
+          
+           </div>
+           </form> 
+         </div>
+        </div>
+      </div>
 
 
-
+      <!-- footer -->
         <div class='footer'> 
               
           <div class='end1'>
