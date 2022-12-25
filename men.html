@@ -232,9 +232,9 @@
                
            .segments{
             display:grid;
-             margin-left:20px;
-             margin-right:20px;
-             width:100%;
+             margin-left:40px;
+             margin-right:40px;
+             min-width:100px;
              margin-top:70px;
               grid-template-columns:repeat(auto-fit, minmax(160px, 2fr));
               grid-row-gap:15px;
@@ -244,6 +244,7 @@
            .cloth{
               width:100%;
              background-color:#fff;
+             padding-bottom:15px;
            }
 
            .cloth img{
@@ -256,7 +257,7 @@
             width:130px;
             color:white;
             font-family:helvetica;
-            background-color:green;
+            background-color:rgb(130, 255, 47);
             font-size:18px;
             margin-left:0px;
                margin-top:0px;
@@ -301,12 +302,16 @@
   transform: translateY(4px);
 }
               
-           .newsletter{
-            width:100%; 
+.newsletter{
+            min-width:100px;
+            text-align:center;
             padding-bottom:25px;
-            padding-left:20px;
-            padding-right:20px;
-            background-color:white;
+            padding-left:30px;
+            padding-right:30px;
+            margin-left:50px;
+            margin-right:50px;
+            background-color:lightgrey;
+            box-shadow:0px 4px 8px 0px rgba(0,0,0,0.2);
             padding-top:15px;
            }  
 
@@ -315,9 +320,8 @@
            }
 
            .newsletter input{
-            width:100%;
-            margin-left:35px;
-            padding:9px;
+            width:40%; 
+            padding:12px;
             background-color:#f3f3f3;
             border:1px solid black;
 
@@ -331,8 +335,8 @@
               padding-top:30px;
               padding-bottom:25px;
               grid-template-columns:repeat(auto-fit, minmax(190px, 3fr));
-              grid-row-gap:3fr;
-              grid-column-gap:3fr;
+              grid-row-gap:40px;
+              grid-column-gap:40px;
            }
 
             .footer .end1{
@@ -345,24 +349,24 @@
               padding-bottom:7px;
               color:white;
             }
-
-                .newsletter button{
+            .newsletter button{
                    color:white;
      	font-weight:bold;
       font-size:20px;
-     	padding:25px;
+     	padding:15px;
      	text-transform:upper-case;
      	padding-left:2px;
      	padding-right:2px;
      	border-top:none;
      	border-left:none;
      	border-right:none;
-      width:100%;
+      width:40%;
      	border-bottom:1px solid white;
      	background-color:red;
         font-weight:bold;
-   
-                }
+        
+
+                }  
 
                 @media only screen and (max-width:600px) {
                   .header1{
@@ -485,6 +489,10 @@
                     <img src='images/polo 1.jpg'>
                     <p class='price'>50$</p>
                     <p class='quality'>Best cloth to wear to occasion</p>
+                    <div style='text-align:center'>
+                      <button style="width:55%; padding:12px; font-weight:bold; background-color:green; 
+                      color:white; border:none; border-radius:12px;">ORDER</button>
+                      </div>
                  </div>
 
                     <div class='cloth'>
@@ -492,6 +500,10 @@
                      <img src='images/polo 2.jpg'>
                      <p class='price'>50$</p>
                      <p class='quality'>Best cloth to wear to occasion</p>
+                     <div style='text-align:center'>
+                      <button style="width:55%; padding:12px; font-weight:bold; background-color:green; 
+                      color:white; border:none; border-radius:12px;">ORDER</button>
+                      </div>
                  </div>
 
                      <div class='cloth'>
@@ -499,6 +511,10 @@
                          <img src='images/polo 3.jpg'>
                          <p class='price'>50$</p>
                          <p class='quality'>Best cloth to wear to occasion</p>
+                         <div style='text-align:center'>
+                          <button style="width:55%; padding:12px; font-weight:bold; background-color:green; 
+                          color:white; border:none; border-radius:12px;">ORDER</button>
+                          </div>
                      </div>
 
                          
@@ -507,6 +523,10 @@
                              <img src='images/polo 4.jpg'>
                              <p class='price'>50$</p>
                              <p class='quality'>Best cloth to wear to occasion</p>
+                             <div style='text-align:center'>
+                              <button style="width:55%; padding:12px; font-weight:bold; background-color:green; 
+                              color:white; border:none; border-radius:12px;">ORDER</button>
+                              </div>
                          </div>
 
                              
@@ -535,6 +555,10 @@
                                          <img src='images/polo 7.jpg'>
                                          <p class='price'>50$</p>
                                          <p class='quality'>Best cloth to wear to occasion</p>
+                                         <div style='text-align:center'>
+                                          <button style="width:55%; padding:12px; font-weight:bold; background-color:green; 
+                                          color:white; border:none; border-radius:12px;">ORDER</button>
+                                          </div>
                                      </div>
                   
 
@@ -543,6 +567,10 @@
                        <img src='images/polo 8.jpg'>
                        <p class='price'>50$</p>
                        <p class='quality'>Best cloth to wear to occasion</p>
+                       <div style='text-align:center'>
+                        <button style="width:55%; padding:12px; font-weight:bold; background-color:green; 
+                        color:white; border:none; border-radius:12px;">ORDER</button>
+                        </div>
                     </div>
 
                        <div class='cloth'>
@@ -550,6 +578,10 @@
                         <img src='images/polo 9.jpg'>
                         <p class='price'>50$</p>
                         <p class='quality'>Best cloth to wear to occasion</p>
+                        <div style='text-align:center'>
+                          <button style="width:55%; padding:12px; font-weight:bold; background-color:green; 
+                          color:white; border:none; border-radius:12px;">ORDER</button>
+                          </div>
                     </div>
 
                         <div class='cloth'>
@@ -557,6 +589,10 @@
                             <img src='images/polo 10.jpg'>
                             <p class='price'>50$</p>
                             <p class='quality'>Best cloth to wear to occasion</p>
+                            <div style='text-align:center'>
+                              <button style="width:55%; padding:12px; font-weight:bold; background-color:green; 
+                              color:white; border:none; border-radius:12px;">ORDER</button>
+                              </div>
                         </div>
 
 <!--                             
@@ -583,6 +619,10 @@
                                         <img src='images/polo 14.jpg'>
                                         <p class='price'>50$</p>
                                         <p class='quality'>Best cloth to wear to occasion</p>
+                                        <div style='text-align:center'>
+                                          <button style="width:55%; padding:12px; font-weight:bold; background-color:green; 
+                                          color:white; border:none; border-radius:12px;">ORDER</button>
+                                          </div>
                                     </div>
 
                                         
@@ -592,8 +632,13 @@
                                             <p class='discount'>50% discount</p>
                                             <img src='images/polo 15.jpg'>
                                             <p class='price'>50$</p>
-                                            <!-- <p class='quality'>Best cloth to wear to occasion</p> -->
-                                            <button class="button">Buy</button>
+                                            <p class='quality'>Best cloth to wear to occasion</p>
+                                           
+                                            <div style='text-align:center'>
+                                              <button style="width:55%; padding:12px; font-weight:bold; background-color:green; 
+                                              color:white; border:none; border-radius:12px;">ORDER</button>
+                                              </div>
+                                             
                                         </div>
                                         <!-- <button class="button">Buy</button> -->
                                     
@@ -606,33 +651,47 @@
 
               <form>
                 <div style='margin-top:50px' class="newsletter">
-                 <p style='font-weight:bold; font-family:helvetica'>SUBSCRIBE OUR NEWS LETTER</p>
-                  <p style='font-family:helvetica; font-size:18px' class='small'>You can subscribe our newsletter to get the latest update of our company</p>
-                  <div style='display:flex;  margin-top:20px'>
-                   <input placeholder="Enter your Email" type="text"> 
-                   <button class="sub">Subscribe</button> </div>
-                </div>
-       
+                  <p style='font-weight:bold; font-family:helvetica'>SUBSCRIBE OUR NEWS LETTER</p>
+                   <p style='font-family:helvetica; font-size:18px' class='small'>You can subscribe our newsletter to get the latest update of our company</p>
+                   <div style='display:flex; justify-content:space-evenly;  margin-top:20px'>
+                    <input placeholder="Enter your Email" type="text"> 
+                    <button class="sub">Subscribe</button> </div>
+                 </div>
+           
                </form>
             
        
        
        
                <div class='footer'> 
-                     
-                 <div class='end1'>
+                <div class='end1'>
                   <p style='font-weight:bold; font-family:helvetica; text-align:center'>knowledge base</p>
-                  <p style='font-family:helvetica; text-align:center'>delivery, returns, services, discounts, special offer</p>
+                  <p style='font-family:helvetica; text-align:center'>delivery <br>  returns <br> services <br>  discounts <br>  special offer</p>
                  </div>
-           
-       
-       
+              
+              
+              
                  <div class='end1'>
                    <p style='font-weight:bold; font-family:helvetica; text-align:center'>knowledge base</p>
-                   <p style='font-family:helvetica; text-align:center'>delivery, returns, services, discounts, special offer</p>
+                   <p style='font-family:helvetica; text-align:center'>delivery <br> returns <br>  services <br>  discounts <br> special offer</p>
                   </div>
+              
+                  
+                  <div class='end1'>
+                   <p style='font-weight:bold; font-family:helvetica; text-align:center'>knowledge base</p>
+                   <p style='font-family:helvetica; text-align:center'>delivery <br>  returns <br>  services <br>  discounts <br>  special offer</p>
+                  </div>
+              
+                  
+              
+                  <div class='end1'>
+                   <p style='font-weight:bold; font-family:helvetica; text-align:center'>knowledge base</p>
+                   <p style='font-family:helvetica; text-align:center'>delivery  <br>  returns  <br>  services <br>  discounts <br>  special offer</p>
+                  </div> 
        
                   
+       
+<!--        
                   <div class='end1'>
                    <p style='font-weight:bold; font-family:helvetica; text-align:center'>knowledge base</p>
                    <p style='font-family:helvetica; text-align:center'>delivery, returns, services, discounts, special offer</p>
@@ -640,26 +699,11 @@
        
                   
        
-                  <div class='end1'>
-                   <p style='font-weight:bold; font-family:helvetica; text-align:center'>knowledge base</p>
-                   <p style='font-family:helvetica; text-align:center'>delivery, returns, services, discounts, special offer</p>
-                  </div>
-       
-                  
-       
        
                   <div class='end1'>
                    <p style='font-weight:bold; font-family:helvetica; text-align:center'>knowledge base</p>
                    <p style='font-family:helvetica; text-align:center'>delivery, returns, services, discounts, special offer</p>
-                  </div>
-       
-                  
-       
-       
-                  <div class='end1'>
-                   <p style='font-weight:bold; font-family:helvetica; text-align:center'>knowledge base</p>
-                   <p style='font-family:helvetica; text-align:center'>delivery, returns, services, discounts, special offer</p>
-                  </div>
+                  </div> -->
         
 
         

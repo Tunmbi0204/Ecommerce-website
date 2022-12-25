@@ -177,13 +177,14 @@
             background-color:red;
             box-shadow:0px 2px 4px 0px rgba(0,0,0,0.2);
             margin-top:0px;
+            text-transform: uppercase;
             width:100%;
             padding-top:5px;
             padding-bottom:5px;
            
           } 
 
-          .header3 p{
+          .header3 a{
             color:white;
             font-size:16px;
             font-weight:bold;
@@ -224,11 +225,15 @@
                 color:red;
            }   
             .newsletter{
-            width:100%; 
+            min-width:100px;
+            text-align:center;
             padding-bottom:25px;
-            padding-left:20px;
-            padding-right:20px;
-            background-color:white;
+            padding-left:30px;
+            padding-right:30px;
+            margin-left:50px;
+            margin-right:50px;
+            background-color:lightgrey;
+            box-shadow:0px 4px 8px 0px rgba(0,0,0,0.2);
             padding-top:15px;
            }  
 
@@ -237,14 +242,14 @@
            }
 
            .newsletter input{
-            width:100%;
-            margin-left:35px;
-            padding:9px;
+            width:40%; 
+            padding:12px;
             background-color:#f3f3f3;
             border:1px solid black;
 
            }
 
+          
            .footer{
              background-color:black;
             display:grid;
@@ -253,8 +258,8 @@
               padding-top:30px;
               padding-bottom:25px;
               grid-template-columns:repeat(auto-fit, minmax(190px, 3fr));
-              grid-row-gap:3fr;
-              grid-column-gap:3fr;
+              grid-row-gap:40px;
+              grid-column-gap:40px;
            }
 
             .footer .end1{
@@ -272,21 +277,22 @@
                    color:white;
      	font-weight:bold;
       font-size:20px;
-     	padding:25px;
+     	padding:15px;
      	text-transform:upper-case;
      	padding-left:2px;
      	padding-right:2px;
      	border-top:none;
      	border-left:none;
      	border-right:none;
-      width:100%;
+      width:40%;
      	border-bottom:1px solid white;
      	background-color:red;
         font-weight:bold;
-        /* border-radius: 15%; */
         
-   
+
                 }   
+
+
                 @media only screen and (max-width:600px) {
                   .header1{
                     display:none;
@@ -371,8 +377,8 @@
             padding-left:10px;
             padding-right:10px;
             display:grid;
-            grid-row-gap:20px;
-            grid-column-gap:20px; 
+            grid-row-gap:40px;
+            grid-column-gap:40px; 
             margin-top:70px;
             grid-template-columns:repeat(auto-fit, minmax(160px, 2fr));
          
@@ -607,13 +613,17 @@
 
 </div> 
 <form>
+
+    <div style="text-align:center">
   <div style='margin-top:50px' class="newsletter">
    <p style='font-weight:bold; font-family:helvetica'>SUBSCRIBE OUR NEWS LETTER</p>
     <p style='font-family:helvetica; font-size:18px' class='small'>You can subscribe our newsletter to get the latest update of our company</p>
-    <div style='display:flex;  margin-top:20px;'>
+    <div style='display:flex; justify-content:space-evenly;  margin-top:20px;'>
      <input placeholder="Enter your Email" type="text"> 
-     <button class="sub">Subscribe</button> </div>
+     <button class="sub">Subscribe</button> 
+    </div>
   </div>
+</div>
 
  </form>
 
@@ -624,44 +634,44 @@
        
    <div class='end1'>
     <p style='font-weight:bold; font-family:helvetica; text-align:center'>knowledge base</p>
-    <p style='font-family:helvetica; text-align:center'>delivery, returns, services, discounts, special offer</p>
+    <p style='font-family:helvetica; text-align:center'>delivery <br>  returns <br> services <br>  discounts <br>  special offer</p>
    </div>
 
 
 
    <div class='end1'>
      <p style='font-weight:bold; font-family:helvetica; text-align:center'>knowledge base</p>
-     <p style='font-family:helvetica; text-align:center'>delivery, returns, services, discounts, special offer</p>
+     <p style='font-family:helvetica; text-align:center'>delivery <br> returns <br>  services <br>  discounts <br> special offer</p>
     </div>
 
     
     <div class='end1'>
+     <p style='font-weight:bold; font-family:helvetica; text-align:center'>knowledge base</p>
+     <p style='font-family:helvetica; text-align:center'>delivery <br>  returns <br>  services <br>  discounts <br>  special offer</p>
+    </div>
+
+    
+
+    <div class='end1'>
+     <p style='font-weight:bold; font-family:helvetica; text-align:center'>knowledge base</p>
+     <p style='font-family:helvetica; text-align:center'>delivery  <br>  returns  <br>  services <br>  discounts <br>  special offer</p>
+    </div>
+
+    
+
+
+    <!-- <div class='end1'>
      <p style='font-weight:bold; font-family:helvetica; text-align:center'>knowledge base</p>
      <p style='font-family:helvetica; text-align:center'>delivery, returns, services, discounts, special offer</p>
     </div>
 
     
 
-    <div class='end1'>
-     <p style='font-weight:bold; font-family:helvetica; text-align:center'>knowledge base</p>
-     <p style='font-family:helvetica; text-align:center'>delivery, returns, services, discounts, special offer</p>
-    </div>
-
-    
-
 
     <div class='end1'>
      <p style='font-weight:bold; font-family:helvetica; text-align:center'>knowledge base</p>
      <p style='font-family:helvetica; text-align:center'>delivery, returns, services, discounts, special offer</p>
-    </div>
-
-    
-
-
-    <div class='end1'>
-     <p style='font-weight:bold; font-family:helvetica; text-align:center'>knowledge base</p>
-     <p style='font-family:helvetica; text-align:center'>delivery, returns, services, discounts, special offer</p>
-    </div>
+    </div> -->
 
  </div> 
 
